@@ -26,10 +26,12 @@ You can configure the custom provider in the web.config file
 There are a few config values you can also specify when setting up the provider information
 
 ```xml
-<add name="CookieSessionProvider" type="CookieJar.CookieSessionStateStore, CookieJar" cookieName=".DTSTR" secureOnly="false" setExpiration="false" />
+<add name="CookieSessionProvider" type="CookieJar.CookieSessionStateStore, CookieJar" cookieName=".DTSTR" httpOnly="true" secureOnly="false" setExpiration="false" />
 ```
 
 - **cookieName** - Configures the name of the cookie used to store the data. Default is ".DTSTR".
+
+- **httpOnly** - Sets the HttpOnly property of the cookie. Default is true.
 
 - **secureOnly** - Sets the Secure propery of the cookie. True means the cookie will only be sent 
 over a secure connection. Default is false.
