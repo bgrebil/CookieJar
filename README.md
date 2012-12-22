@@ -40,9 +40,7 @@ over a secure connection. Default is false.
 on the timeout value specified by the sessionState. Default is false.
 
 ## References
-[Session State Providers](http://msdn.microsoft.com/en-us/library/aa478952.aspx)
-
-[Implementing a Session-State Store Provider](http://msdn.microsoft.com/en-us/library/ms178587.aspx)
-
-This [twitter conversation](https://twitter.com/rbranson/status/269915970376708096) is what kicked off
+- [Session State Providers](http://msdn.microsoft.com/en-us/library/aa478952.aspx)
+- [Implementing a Session-State Store Provider](http://msdn.microsoft.com/en-us/library/ms178587.aspx)
+- This [twitter conversation](https://twitter.com/rbranson/status/269915970376708096) is what kicked off
 the idea of trying this out.
